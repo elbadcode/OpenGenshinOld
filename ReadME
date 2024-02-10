@@ -11,10 +11,6 @@ There's not many good workarounds without building a modified version of the set
 
 3dmigoto can be symbolically linked if you already have a setup. Make sure to choose a folder called 3dmigoto containing a mods and shaderfixes directory. If you don't have 3dmigoto the program will download it for you but no mods are included. You can find out more about modding by visiting the discord community (discord.gg/agmg) or visiting the genshin page on gamebanana. Please do be mindful to filter any content you don't wish to see and keep in mind that user generated mods do not necessarily reflect the 
 
-You can safely delete the installer after setup completes or you can keep it around. You can install it anywhere on your PC as many times as you want. Reinstalling to the same directory without cleaning out old files may cause some issues depending on your windows configuration
-There are several bat files included that can individually handle the steps if you need to reinstall
-3Dmigoto directories are symlinked during installation if you chose so and will never be directly modified. Your mods are safe
-
 Run genshin from "Open Genshin.exe". If this works and you have no issues then this is now your primary way to launch the game
 There is only one key issue I'm tracking which is an occasional application crash/hang that has been present since updating to the newest reshade version. 
 If not for that I would have had this ready over a week ago but its given me time to sort some things out. If you encounter a crash or hang please use task manager to kill your game, let me know on here or discord, and don't get baited into thinking it will come back just because you here game audio
@@ -28,7 +24,9 @@ I also recommend spending some money on the game even if its just welkin. I'm pe
 MHY if you happen upon this repo, I assure you there's nothing new in here. This project just streamlines setup of visual mods you already turn a blind eye to. Ideally you'll let this live. In the event that you do insist on taking this down I will comply with no issue so long as the paywalled alternative genshin-impact-reshade is also dismantled and the owner is appropriately dealt with. My main goal here is to prevent users from being scammed and exposed to security risks from that author. To fix reshade I adusted its behavior to prefer loading an ini from the path where the dll is located meaning we do not read or write to the game path and only inject through the known mechanism in the fps_unlocker mod. This does enable depth buffer access but solely for the purpose of visual enhancement. Cheating is neither condoned nor tolerated by myself or anyone else involved in the works I've pulled in. Many of us are paying customers and ultimately the modding community is here because of our love for the game.
 
 
-
+Regarding fair usage, I am okay with any of my work being modified or redistributed so long as it is not sold and source code is provided. I will add a GPL license most likely. Do be aware of any licenses from the submodules included as they may have specific terms. As an example, taking my batch installer and using it for a paywalled modloader would not be okay, but if the GIMI team wanted to include my launcher in the main repo that would be perfectly fine and is honestly something I encourage once its ready.
+Regarding compensation, I am not seeking any as that would defeat the purpose of this project and may evem violate some license agreements. I can make my information available if you wish to support my other endeavors but I will never ask for anything related to this project.
+Regarding contributions, there isn't a whole lot to be done other than testing but if you have some skillset that would be relevant don't hesitate to make a pull request or reach out directly. My main tasks are to improve the GUI and add more presets so any help with those would be welcome. If uploading a Reshade preset please make a pull request or message me with the file as well as a brief summary of your hardware and the general performance. I would like to have an open thread for presets in the discussions tab but I am concerned about the potential for users to upload premium shaders without rights
 
 Some notes on crashes and fixes for advanced users
 
