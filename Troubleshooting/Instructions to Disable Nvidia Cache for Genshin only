@@ -21,7 +21,7 @@ But if there's a buggy shader its going to keep happening. I think my repeated t
 If you want to preempt any issues or you've already confirmed caching is a problem for you, don't just globally disable your cache. 
 You definitely want 10GB or more for other games and applications. 
 
-Instead download (Nvidia Profile Inspector)[https://github.com/Orbmu2k/nvidiaProfileInspector/releases] find Genshin Impact, scroll down to section 5 - Common
+Instead download [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases) find Genshin Impact, scroll down to section 5 - Common
 There you will see Shadercache - Cachesize and Shadercache-Enabled which can both be set to off to override global caching for Genshin only. 
 In this section you can also enable rebar for a possible performance gain. You can also set any other tweaks that are exposed in nvidia control panel such as vsync, ultra low latency
 or forced anisotropic filtering. I don't recommend messing with any of the other settings in here if you don't know exactly what you're doing. I do plan to see if anything in here is useful anyway
