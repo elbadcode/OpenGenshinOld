@@ -1,4 +1,7 @@
 Your installation is complete! The game launcher should also have opened for you so feel free to jump right into the game!
 For now this will be the landing page for the repo where you can learn more about how to use everything included and find easy links to other free and paid shaders I couldn't distribute. 
 
+When you load ingame press Home to open the reshade overlay. It should have defaulted to a preset called fast but no effects will have loaded. Click on fast or pick one of the other options and click select to actually load the preset or click force load all effects and start making your own. I recommend just closing the overlay and playing normally while you wait for shaders to compile. It will take a while but once you have some presets ready you'll have very fast load and compile times. I will provide presets in the next few updates but for now you can't go wrong with Fast glamarye effects and your choice of HDR or other tonemapping shader
+
+
 More usage instructions and information available in the readme. This is still a WIP but the goal is within the next few weeks to have a fleshed out guide that addresses topics I may not have thought of
