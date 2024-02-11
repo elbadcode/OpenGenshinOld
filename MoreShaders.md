@@ -2,13 +2,20 @@ More Shaders:
 
 [IpsuShade](https://github.com/ipsusu/IpsuShade) 
   - collection of many tweaked or custom effects
+
+
 [GShade](https://github.com/Mortalitas/GShade)
    - use non-installer version to grab all effects and presets
-   - 
+   - some effects may not work with ReShade due to small API changes
+   - Initially this project used GShade and the launcher does support switching to Gshade, but the newest version has some issues I need to sort out
+
+
 [Immerse](https://github.com/martymcmodding/iMMERSE)
   - free marty's mod shaders, included in the installer but I want to emphasize them
   - Useful in combination with other effects, critical for using his paid suite
-[Marty's Mods](https://www.martysmods.com/ ) - paid access to the rest of martys mods and publicly accessible guides that are worth reading even if you don't buy
+
+[Marty's Mods](https://www.martysmods.com/ )
+  - paid access to the rest of martys mods and publicly accessible guides that are worth reading even if you don't buy
   - I don't normally like to shill for paywalled stuff but these shaders are the real deal and you can keep everything from a one time sub
   - I highly recommend getting these if you want raytracing and other top tier effects. You should have downloaded an RTGI implementation already but it doesnt stack up
   - Presets using his shaders will be included but you still need to own them yourself
