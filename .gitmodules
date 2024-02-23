@@ -1,0 +1,6 @@
+[submodule "reshade"]
+	path = reshade
+	url = http://github.com/elbadcode/reshade
+[submodule "genshin-fps-unlock"]
+	path = genshin-fps-unlock
+	url = https://github.com/elbadcode/genshin-fps-unlock
